@@ -25,8 +25,7 @@ const Login = (props) => {
       history.push("/");
       props.showAlert("Logged in Successfully", "success");
     } else {
-      props.showAlert("Invalid Details", "danger");
-
+      props.showAlert(json.error, "danger");
     }
   };
 
