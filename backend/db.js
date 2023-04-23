@@ -1,11 +1,11 @@
-const mongoose = require('mongoose');
+const mongoose = require("mongoose");
+require("dotenv").config();
 
-const mongoURI = "mongodb://localhost:27017/enotebook?readPreference=primary&appname=MongoDB%20Compass&directConnection=true&ssl=false"
-
-const connectToMongo = ()=>{
-    mongoose.connect(mongoURI, ()=>{
-        console.log("Connected to Mongo Successfully");
-    })
-}
+const connectToMongo = () => {
+  mongoose.connect(process.env.mongoURI);
+  // mongoose.connect(process.env.mongoURI, () => {
+  //   console.log("Connected to Mongo Successfully");
+  // });
+};
 
 module.exports = connectToMongo;
