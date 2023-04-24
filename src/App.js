@@ -1,5 +1,5 @@
 import "./App.css";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route , Redirect} from "react-router-dom";
 import Navbar from "./components/Navbar";
 import { Home } from "./components/Home";
 import About from "./components/About";
@@ -42,6 +42,7 @@ function App() {
               <Route exact path="/signup">
                 <Signup showAlert={showAlert} />
               </Route>
+              <Redirect to="/" />
             </Switch>
           </div>
         </Router>
