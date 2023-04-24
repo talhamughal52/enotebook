@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.1fd3b027.chunk.css",
-    "main.js": "/static/js/main.a723b306.chunk.js",
-    "main.js.map": "/static/js/main.a723b306.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.ee94cc13.js",
-    "runtime-main.js.map": "/static/js/runtime-main.ee94cc13.js.map",
-    "static/js/2.140db1db.chunk.js": "/static/js/2.140db1db.chunk.js",
-    "static/js/2.140db1db.chunk.js.map": "/static/js/2.140db1db.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.1fd3b027.chunk.css.map": "/static/css/main.1fd3b027.chunk.css.map",
-    "static/js/2.140db1db.chunk.js.LICENSE.txt": "/static/js/2.140db1db.chunk.js.LICENSE.txt"
+    "main.css": "/enotebook/static/css/main.1fd3b027.chunk.css",
+    "main.js": "/enotebook/static/js/main.a723b306.chunk.js",
+    "main.js.map": "/enotebook/static/js/main.a723b306.chunk.js.map",
+    "runtime-main.js": "/enotebook/static/js/runtime-main.f7d99754.js",
+    "runtime-main.js.map": "/enotebook/static/js/runtime-main.f7d99754.js.map",
+    "static/js/2.140db1db.chunk.js": "/enotebook/static/js/2.140db1db.chunk.js",
+    "static/js/2.140db1db.chunk.js.map": "/enotebook/static/js/2.140db1db.chunk.js.map",
+    "index.html": "/enotebook/index.html",
+    "static/css/main.1fd3b027.chunk.css.map": "/enotebook/static/css/main.1fd3b027.chunk.css.map",
+    "static/js/2.140db1db.chunk.js.LICENSE.txt": "/enotebook/static/js/2.140db1db.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.ee94cc13.js",
+    "static/js/runtime-main.f7d99754.js",
     "static/js/2.140db1db.chunk.js",
     "static/css/main.1fd3b027.chunk.css",
     "static/js/main.a723b306.chunk.js"
