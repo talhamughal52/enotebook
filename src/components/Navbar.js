@@ -1,14 +1,12 @@
 import React from "react";
-// import { Link, useHistory, useLocation } from "react-router-dom";
-import { Link, redirect, useLocation } from "react-router-dom";
+import { Link, useHistory, useLocation } from "react-router-dom";
 
 const Navbar = () => {
   let location = useLocation();
-  // let history = useHistory();
+  let history = useHistory();
   const handleLogout = () => {
     localStorage.removeItem("token");
-    // history.push("/login");
-    redirect("/login");
+    history.push("/login");
   };
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
