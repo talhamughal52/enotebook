@@ -1,10 +1,15 @@
 import "./App.css";
-import { BrowserRouter as Router, Switch, Route , Redirect} from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Redirect,
+} from "react-router-dom";
 import Navbar from "./components/Navbar";
 import { Home } from "./components/Home";
 import About from "./components/About";
 import NoteState from "./context/notes/NoteState";
-import  Alert  from "./components/Alert";
+import Alert from "./components/Alert";
 import Signup from "./components/Signup";
 import Login from "./components/Login";
 import { useState } from "react";
@@ -25,12 +30,12 @@ function App() {
   return (
     <>
       <NoteState>
-        <Router>
+        <Router basename="/enotebook">
           <Navbar />
           <Alert alert={alert} />
           <div className="container">
             <Switch>
-              <Route exact path="/">
+              <Route exact path="/enotebook">
                 <Home showAlert={showAlert} />
               </Route>
               <Route exact path="/about">
@@ -42,7 +47,7 @@ function App() {
               <Route exact path="/signup">
                 <Signup showAlert={showAlert} />
               </Route>
-              <Redirect to="/" />
+              <Redirect to="/enotebook" />
             </Switch>
           </div>
         </Router>
